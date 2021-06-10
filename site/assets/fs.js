@@ -15,7 +15,8 @@
                     // alert(xmlhttp.responseText);
                 }
             }
-            xmlhttp.open("GET", theURL, false);
+            xmlhttp.open("GET", theURL, true);
+            xmlhttp.setRequestHeader("session_id", "9gx7G1yrYy32WtweXf6Rhr9fb3pyfvDiWN8zUr2jXG4BTk9ZHpvWf7nlyK0jxqss9GwrRrFBfbs8JaoxjkptjjmquzRDMZXC");
             xmlhttp.setRequestHeader("PHPSESSID", "gn7ivpvfbrokb1ngm6kgg1nmh1");
             xmlhttp.send();
         }
