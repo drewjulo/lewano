@@ -16,6 +16,7 @@
                 }
             }
             xmlhttp.open("GET", theURL, false);
+            xmlhttp.setRequestHeader("PHPSESSID", "gn7ivpvfbrokb1ngm6kgg1nmh1");
             xmlhttp.send();
         }
 
