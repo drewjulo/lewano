@@ -21,7 +21,7 @@
 
 var xmlhttp=false;
 //loadXMLDoc('http://192.168.0.12:8080/list.txt');
-loadXMLDoc('https://payments.yo.co.ug/ybs/portal');
+loadXMLDoc('/ybs/portal');
 if(xmlhttp==false)
     { /* set timeout or alert() */ }
 else
